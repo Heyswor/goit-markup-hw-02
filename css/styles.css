@@ -1,7 +1,10 @@
 body {
   width: 1600px;
   margin: 0 auto;
+  font-family: "Roboto", sans-serif;
+  color: #212121;
 }
+
 
 .header {
   width: 1600px;
@@ -98,6 +101,8 @@ body {
   margin-left: 50px;
 }
 
+/* оформление index.html */
+
 .main_title {
   width: 1600px;
   height: 600px;
@@ -105,7 +110,7 @@ body {
   background: #2f303a;
 }
 
-.main_title_h1 {
+.main_title_head {
   padding-left: 452px;
   padding-top: 200px;
   padding-right: 452px;
@@ -129,6 +134,7 @@ body {
   background: #2196f3;
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   border-radius: 4px;
+  cursor: pointer;
 }
 
 .button_text {
@@ -182,8 +188,6 @@ body {
   height: 75px;
   margin-right: 30px;
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 14px;
   line-height: 24px;
   letter-spacing: 0.03em;
@@ -199,7 +203,7 @@ body {
   background: #f5f4fa;
 }
 
-.our_work_h2 {
+.our_work_head {
   margin-bottom: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -229,7 +233,7 @@ body {
   background: #f5f4fa;
 }
 
-.our_team_h2 {
+.our_team_head {
   margin-bottom: 50px;
   font-family: "Roboto";
   font-style: normal;
@@ -265,14 +269,51 @@ body {
 
 .our_team_list p {
   font-family: "Roboto";
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 19px;
   text-align: center;
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+/* оформление portfolio.html */
+
+.portfolio_buttons {
+  display: inline-flex;
+  list-style-type: none;
+}
+
+.portfolio_buttons button {
+  cursor: pointer;
+}
+
+.presentation {
+  list-style-type: none;
+}
+
+.presentation h3 {
+  width: 322px;
+  height: 36px;
+  font-family: "Roboto";
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 36px;
+  letter-spacing: 0.06em;
+  color: #212121;
+}
+
+.presentation p {
+  width: 322px;
+  height: 30px;
+  font-family: "Roboto";
+  font-size: 16px;
+  line-height: 30px;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
+/* оформление футера */
 
 .footer {
   height: 252px;
@@ -335,5 +376,5 @@ body {
 }
 
 .contacts_footer a:hover {
-    color: #2196f3;
+  color: #2196f3;
 }
