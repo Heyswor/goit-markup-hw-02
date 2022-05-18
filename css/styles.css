@@ -2,7 +2,7 @@
   --accent-color: #2196f3;
   --link-color: #212121;
   --address-color: #757575;
-  --discription-colo: #757575;  
+  --discription-color: #757575;  
 }
 
 body {
@@ -151,7 +151,7 @@ body {
 
 .skills_li p {
   line-height: 1.71;
-  color: var(--discription-colo);
+  color: var(--discription-color);
 }
 
 .our_work {
@@ -203,7 +203,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: var(--discription-colo);
+  color: var(--discription-color);
 }
 
 /* оформление portfolio.html */
@@ -287,7 +287,7 @@ body {
 .presentation p {
   font-size: 16px;
   line-height: 1.87;
-  color: var(--discription-colo);
+  color: var(--discription-color);
 }
 
 /* оформление футера */
