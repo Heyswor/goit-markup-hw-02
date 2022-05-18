@@ -1,5 +1,8 @@
 :root {
-  --link-color: #2196f3;
+  --accent-color: #2196f3;
+  --link-color: #212121;
+  --address-color: #757575;
+  --discription-colo: #757575;  
 }
 
 body {
@@ -19,7 +22,7 @@ body {
 
 .nav a {
   text-decoration: none;
-  color: #212121;
+  color: var(--link-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -29,11 +32,11 @@ body {
 }
 
 .nav a:hover {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .nav a:focus {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .nav_logo {
@@ -43,7 +46,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: #2196f3;
+  color: var(--accent-color);
   text-decoration: none;
 }
 
@@ -52,11 +55,11 @@ body {
 }
 
 .nav_li_1 .active-studio {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .nav_li_2 .active-portfolio {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .nav_li_3 {
@@ -68,7 +71,7 @@ body {
 
 .contacts a {
   text-decoration: none;
-  color: #757575;
+  color: var(--address-color);
   font-family: "Roboto";
   font-style: normal;
   font-weight: 500;
@@ -78,11 +81,11 @@ body {
 }
 
 .contacts a:hover {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .contacts a:focus {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .head_mail {
@@ -148,7 +151,7 @@ body {
 
 .skills_li p {
   line-height: 1.71;
-  color: #757575;
+  color: var(--discription-colo);
 }
 
 .our_work {
@@ -200,7 +203,7 @@ body {
   font-size: 16px;
   line-height: 1.18;
   text-align: center;
-  color: #757575;
+  color: var(--discription-colo);
 }
 
 /* оформление portfolio.html */
@@ -284,7 +287,7 @@ body {
 .presentation p {
   font-size: 16px;
   line-height: 1.87;
-  color: #757575;
+  color: var(--discription-colo);
 }
 
 /* оформление футера */
@@ -301,7 +304,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: #2196f3;
+  color: var(--accent-color);
 }
 
 .footer_logo_2 {
@@ -330,13 +333,13 @@ body {
   font-style: normal;
   font-size: 14px;
   line-height: 1.71;
-  color: #757575;
+  color: var(--address-color);
 }
 
 .contacts_footer a:hover {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
 
 .contacts_footer a:focus {
-  color: var(--link-color);
+  color: var(--accent-color);
 }
