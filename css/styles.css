@@ -2,7 +2,7 @@
   --accent-color: #2196f3;
   --link-color: #212121;
   --address-color: #757575;
-  --discription-color: #757575;  
+  --discription-color: #757575;
 }
 
 body {
@@ -13,6 +13,7 @@ body {
   letter-spacing: 0.03em;
 }
 
+/*-----------------------------------------HEADER-----------------------------------------*/
 .header {
 }
 
@@ -40,8 +41,7 @@ body {
 }
 
 .nav_logo {
-  font-family: "Raleway";
-  font-style: normal;
+  font-family: "Raleway"; 
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -94,7 +94,7 @@ body {
 .head_tel {
 }
 
-/* оформление index.html */
+/*-----------------------------------------STUDIO-----------------------------------------*/
 
 .main_title {
   background: #2f303a;
@@ -206,7 +206,7 @@ body {
   color: var(--discription-color);
 }
 
-/* оформление portfolio.html */
+/*-----------------------------------------PORTFOLIO-----------------------------------------*/
 
 .portfolio_buttons {
   list-style-type: none;
@@ -290,7 +290,7 @@ body {
   color: var(--discription-color);
 }
 
-/* оформление футера */
+/*-----------------------------------------FOOTER-----------------------------------------*/
 
 .footer {
   background: #2f303a;
@@ -301,6 +301,7 @@ body {
 }
 
 .footer_logo {
+  font-family: "Raleway";
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
