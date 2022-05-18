@@ -43,7 +43,7 @@ body {
   font-size: 26px;
   line-height: 1.19;
   letter-spacing: 0.03em;
-  color: var(--link-color);
+  color: #2196f3;
   text-decoration: none;
 }
 
@@ -301,7 +301,7 @@ body {
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
-  color: var(--link-color);
+  color: #2196f3;
 }
 
 .footer_logo_2 {
