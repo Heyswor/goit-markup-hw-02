@@ -20,6 +20,8 @@ body {
 .nav a {
   text-decoration: none;
   color: #212121;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -35,6 +37,8 @@ body {
 }
 
 .nav_logo {
+  font-family: "Raleway";
+  font-style: normal;
   font-weight: 700;
   font-size: 26px;
   line-height: 1.19;
@@ -65,6 +69,8 @@ body {
 .contacts a {
   text-decoration: none;
   color: #757575;
+  font-family: "Roboto";
+  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
